@@ -45,9 +45,10 @@ NB: The reagents listed below are the ones we tested. You are welcome to try oth
 
 Solutions to prepare:
 
-- EDTA 500mM
+- 10 mM Tris-HCl pH 8.5 or PCR-grade water
+- EDTA 500 mM
 - SDS 10%
-- TEN (10mM Tris-HCl 7.5, 1 mM EDTA, 1M NaCl)
+- TEN (10 mM Tris-HCl pH 7.5, 1 mM EDTA, 1M NaCl)
 - 1x SSC / 0.1% SDS
 - 0.5x SSC / 0.1% SDS
 - 0.1x SSC / 0.1% SDS
@@ -488,14 +489,14 @@ Your libraries are now ready to be sent for sequencing, congratulations!
 
 ### 5.1 AMPure purification
 
-It is possible to use commercial AMPure or "homemade" substitute for significant savings. Preparation protocols for the substitute can be found online:
+It is possible to use "homemade" substitute of AMPure for significant savings. Preparation protocols can be found online:
 [Faircloth & Glenn 2011](http://openwetware.org/images/1/17/Serapure_bead_recipe.pdf), [Jolivet & Foley 2015](http://openwetware.org/images/f/f8/SPRI_buffers_v2_2.pdf).
 
 Other reagents and tools needed:
 
 - freshly prepared 70% ethanol,
-- Tris 10 mM or water for elution,
-- magnetic rack for PCR plates (or for 1.5 mL tubes if working on pooled samples).
+- 10 mM Tris-HCl pH 8.5 or PCR-grad water for elution,
+- magnetic rack for PCR plates (or for 1.5 ml tubes if working on pooled samples).
 
 The purification protocol:
 
