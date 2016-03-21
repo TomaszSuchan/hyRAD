@@ -31,16 +31,16 @@ NB: The reagents listed below are the ones we tested. You are welcome to try oth
 |T4 DNA polymerase (3 U/μL)              |NEB               |M0203S, M0203L |supplied with buffer and BSA  |
 |T4 Polynucleotide kinase (PNK) (10U/μL) |NEB               |M0201S, M0201L |supplied with buffer          |
 |Terminal transferase (TdT) (20 U/μL)    |NEB               |M0315S, M0315L |supplied with buffer and CoCl<sub>2</sub>|
-|MseI restriction enzyme (10 000 U/ml)   |NEB               |R0525          | |
-|SbfI-HF restriction enzyme (20 000 U/ml)   |NEB               |R3642          |supplied with CutSmart buffer |
-|dNTP mix (25 mM each)                   |any               |               | |
-|GTP (100 mM)                            |Life Technologies | R1461         | |
-|NEBuffer 4 (10x)                        |NEB               | B7004S        | |
-|ThermoPol reaction buffer (10x)         |NEB               | B9005S        | |
-|Denhardt’s solution  (50x)              |Life Technologies | 750018        | |
-|Biotin Nick Translation Mix             |Life Technologies | 11745824910   | |
-|Dynabeads® M-280 Streptavidin           |Life Technologies | 11205D, M-270 | |
-|SSC Buffer Concentrate (20x)            |Life Technologies | 00-8400       | |
+|MseI restriction enzyme (10 000 U/ml)   |NEB               |R0525          |                              |
+|SbfI-HF restriction enzyme (20 000 U/ml)|NEB               |R3642          |supplied with CutSmart buffer |
+|dNTP mix (25 mM each)                   |any               |               |                              |
+|GTP (100 mM)                            |Life Technologies | R1461         |                              |
+|NEBuffer 4 (10x)                        |NEB               | B7004S        |                              |
+|ThermoPol reaction buffer (10x)         |NEB               | B9005S        |                              |
+|Denhardt’s solution  (50x)              |Life Technologies | 750018        |                              |
+|Biotin Nick Translation Mix             |Life Technologies | 11745824910   |                              |
+|Dynabeads® M-280 Streptavidin           |Life Technologies | 11205D, M-270 |                              |
+|SSC Buffer Concentrate (20x)            |Life Technologies | 00-8400       |                              |
 |Agencourt AMPure XP                     |Beckman Coulter   | A63881        |possible to use cheaper alternative, see Appendix|
 
 Solutions to prepare:
