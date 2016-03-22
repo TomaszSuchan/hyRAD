@@ -322,7 +322,7 @@ Prepare master mix B4:
 | BSA (10 mg/μl)                         | 0.35        |
 | T4 DNA polymerase (3 U/μl)             | 0.2         |
 
-Add 5 μl of the master mix B4 to 30 μl of the DNA (total volume = 35 μl).
+Add 5 μl of the master mix B4 to 30 μl of the DNA (total volume = 35 μl). Keep on ice when assembling the reaction.
 
 Incubate for 15 min at 12°C.
 
@@ -361,7 +361,7 @@ Add 10 μl of the master mix B6 to 10 μl of the DNA (total volume = 10 μl).
 
 Incubate for 20 min at 37°C.
 
-Perform AMPure cleanup with the beads:sample ratio 2:1 according to the manufacturer's instructions. Resuspend in 10 μl of 10 mM Tris or water.
+Perform AMPure cleanup with the beads:sample ratio 2:1 according to the manufacturer's instructions. Resuspend in 20 μl of 10 mM Tris or water (or more, depending on the number of PCR replicates in the next step).
 
 ### 3.7 PCR amplification
 
@@ -437,30 +437,30 @@ NB: If more captures are expected, increase the initial amount of beads accordin
 1. Add 40 μl of the hybridization mixture to 200ul of Dynabeads	
 Mix, incubate 30 min at room temperature.	
 	
-2. Put on magnet; remove supernatant (= wash 1).	
+2. Put on the magnet; remove supernatant (= wash 1).	
 Resuspend beads in 200 μl of 65°C 1x SSC / 0.1% SDS. Mix well.	
 Mix, incubate for 15 min, 65°C.	
 	
-3. Put on magnet; remove supernatant  (= wash 2).	
+3. Put on the magnet; remove supernatant  (= wash 2).	
 Replace with 200 μl of 65°C 1x SSC / 0.1% SDS. Mix well.	
 Mix, incubate for 10 min, 65°C.	
 	
-4. Put on magnet; remove supernatant (= wash 3).	
+4. Put on the magnet; remove supernatant (= wash 3).	
 Replace with 200 μl of 0.5x SSC / 0.1% SDS. Mix well.	
 Mix, incubate for 10 min, 65°C.	
 	
-5. Put on magnet; remove supernatant (= wash 4).	
+5. Put on the magnet; remove supernatant (= wash 4).	
 Replace with 200 μl of 0.1x SSC / 0.1% SDS	
 Mix, incubate for 10 min, 65°C.	
 	
-6. Put on magnet; remove supernatant (= wash 5).	
+6. Put on the magnet; remove supernatant (= wash 5).	
 Add 30 μl of 80°C water. Mix well	
 Mix, incubate for 10 min, 80°C.
 	
-7. Put on magnet; remove and RETAIN supernatant.	
+7. Put on the magnet; remove and RETAIN supernatant.	
 This supernatant contains the hybridization-enriched products!	
 
-8. Discard beads.						
+8. Discard the beads.						
 
 NB: You can keep supernatant after washes 1-5 in case of DNA loss. 
 
