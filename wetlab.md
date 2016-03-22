@@ -41,6 +41,7 @@ NB: The reagents listed below are the ones we tested. You are welcome to try oth
 |Biotin Nick Translation Mix             |Life Technologies | 11745824910   |                              |
 |Dynabeads® M-280 Streptavidin           |Life Technologies | 11205D, M-270 |                              |
 |SSC Buffer Concentrate (20x)            |Life Technologies | 00-8400       |                              |
+|Cot-1 DNA (1 mg/ml)                     |ThermoFischer     | 15279011      |                              |
 |Agencourt AMPure XP                     |Beckman Coulter   | A63881        |possible to use cheaper alternative, see Appendix|
 
 Solutions to prepare:
@@ -387,9 +388,9 @@ Optional: verify individual sample profiles using gel electorphoresis.
 
 Pool the samples amplified using the same indexed primer together. If the variation in amplification success is large, estimate concentrations and pool the samples in equimolar ratios. This can be done using some gel documentation systems or Fragment Analyzer/Tapestation/Bioanalyzer. Alternatively, concentrations can be measured using Qubit/Picogreen but the samples have to be purified using AMPure beads before quantification (in order to remove primer-dimers).
 
-After pooling, perform AMPure cleanup in order to remove primer-dimers, with the beads:sample ratio 0.7:1 according to the manufacturer's instructions. Resuspend in 15 μl of 10 mM Tris or water.
+After pooling, perform AMPure cleanup in order to remove primer-dimers, with the beads:sample ratio 0.7:1 according to the manufacturer's instructions. Resuspend in 15 μl of 10 mM Tris or water (10 μl for the capture, the rest for library quantification and profile validation).
 
-Verify the probes profile and proper primer-dimer removal using gel electrophoresis, or Fragent Analyzer/Tapestation.
+Verify the probes profile and proper primer-dimer removal using gel electrophoresis, or Fragent Analyzer/Tapestation. Quantify using Qbit on based on the Fragent Analyzer/Tapestation profile.
 
 ## 4 Hybridization capture and library re-amplification
 
@@ -403,19 +404,20 @@ Remember to perform one capture per pool of the libraries amplified with the sam
 
 Prepare the hybridization mix. Probes and blocking oligos are used in excess. So far, we used 500-1000 ng of the Illumina library and the same amount of the probes.
 
-| reagent                        | volume [μl] |
-| ------------------------------ | ----------- |
-| water                          | 4.0         |
-| SSC (20x)                      | 12.0        |
-| EDTA (500 mM)                  | 0.4         |
-| SDS (10%)                      | 0.4         |
-| Denhardt’s solution (50x)      | 1.6         |
-| BO.1 blocking oligo (200 μM)   | 0.4         |
-| BO.2 blocking oligo (200 μM)   | 0.4         |
-| BO.3 blocking oligo (200 μM)   | 0.4         |
-| BO.4 blocking oligo (200 μM)   | 0.4         |
-| prepared Illumina library      | 14.0        |
-| probes                         | 10.0        |
+| reagent                                | volume [μl] |
+| -------------------------------------- | ----------- |
+| water                                  | 3.5         |
+| SSC (20x)                              | 12.0        |
+| EDTA (500 mM)                          | 0.4         |
+| SDS (10%)                              | 0.4         |
+| Denhardt’s solution (50x)              | 1.6         |
+| Cot-1 DNA (1 mg/ml)                    | 0.5         |
+| BO.1 blocking oligo (200 μM)           | 0.4         |
+| BO.2 blocking oligo (200 μM)           | 0.4         |
+| BO.3 blocking oligo (200 μM)           | 0.4         |
+| BO.4 blocking oligo (200 μM)           | 0.4         |
+| prepared Illumina library (500-1000 ng)| 10.0        |
+| probes (500-1000 ng)                   | 10.0        |
 
 Incubate at 95°C for 10 minutes, then at 65°C for 48 hours. Mix from time to time. The best is to use rotor in the hybridization oven, but it is also possible to use a standard PCR machine.
 
