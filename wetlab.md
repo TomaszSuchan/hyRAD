@@ -70,7 +70,7 @@ Symbols used:
 |RAD-P1.1 | ACACTCTTTCCCTACACGACGCTCTTCCGATCTxxxxxxCCTGCA |
 |RAD-P1.2 | GGxxxxxxAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT     |
 
-The adapters above are compatible with SbfI restriction enzyme overhang. The overhang is followed by 6-bp long barcode sequence, so each pair of the oligos that will be annealed together should have reverse-complementary barcode region. These barcode sequences can be designed using published scripts [(Meyer & Kircher 2010)](https://bioinf.eva.mpg.de/multiplex/). To prepare 10 μM working solution, mix 10 μL of the RAD-P1.1 and RAD-P1.2 oligos (100 μM stock) with 80 μL of water to obtain 100 μL of working solution. Adapters have to be annealed as follows: heat to 95°C for 1 minute and slowly bring to 20°C with a ramp of 0.1°C/s.
+The adapters above are compatible with SbfI restriction enzyme overhang. The overhang is followed by 6-bp long barcode sequence (xxxxxx), so each pair of the oligos that will be annealed together should have reverse-complementary barcode region. These barcode sequences can be designed using published scripts [(Meyer & Kircher 2010)](https://bioinf.eva.mpg.de/multiplex/). To prepare 10 μM working solution, mix 10 μL of the RAD-P1.1 and RAD-P1.2 oligos (100 μM stock) with 80 μL of water to obtain 100 μL of working solution. Adapters have to be annealed as follows: heat to 95°C for 1 minute and slowly bring to 20°C with a ramp of 0.1°C/s.
 
 #### RAD P2 adaptor, MseI-compatible (RAD-P2)
 
@@ -88,37 +88,31 @@ The adapters above are compatible with MseI restriction enzyme overhang. These a
 |P1.1     | ACACTCTTTCCCTACACGACGCTCTTCCGATCTxxxxxx       |
 |P1.2     | xxxxxxAGATCGGAAGAGC                           |
 
-These adapters are barcoded in a similar way as RAD-P1 adapters. Prepare 25 μM working solution to as many PCR wells as P1 barcoded adapters are needed. Mix 25 μl of each oligo from the pair (100 μM stock) with 50 μL of water to obtain 100 μL working solution. Adapters have to be annealed as follows: heat to 95°C for 1 minute and bring to 20°C with a ramp of 0.1°C/s. Keep them organized in  PCR strips with individually capped tubes for convenient usage. Make sure not to cross-contaminate the barcoded adapters when pipetting.
+These adapters are barcoded in a similar way as RAD-P1 adapters. The barcode sequence (xxxxxx) is designed using [Meyer & Kircher (2010) script](https://bioinf.eva.mpg.de/multiplex/). 
 
-#### Shotgun library P2 oligonucleotide P2
+Prepare 25 μM working solution to as many PCR wells as P1 barcoded adapters are needed. Mix 25 μl of each oligo from the pair (100 μM stock) with 50 μL of water to obtain 100 μL working solution. Adapters have to be annealed as follows: heat to 95°C for 1 minute and bring to 20°C with a ramp of 0.1°C/s. Keep them organized in  PCR strips with individually capped tubes for convenient usage. Make sure not to cross-contaminate the barcoded adapters when pipetting.
+
+#### Shotgun library P2 oligonucleotide
 
 |name     |sequence                                       |
 |---------|-----------------------------------------------|
 |P2-CCCCC | GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCTCCCCC       |
 
-From 100 μM stock, prepare aliquots of P2-CCCC at 15 μM.
+From 100 μM stock, prepare aliquots of P2-CCCCC at 15 μM.
 
 #### PCR primers
 
-|name        |sequence                                               |
-|------------|-------------------------------------------------------|
-|ILLPCR1     | AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTT   |
-|ILLPCR2\_01 | CAAGCAGAAGACGGCATACGAGATCGTGATGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_02 | CAAGCAGAAGACGGCATACGAGATACATCGGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_03 | CAAGCAGAAGACGGCATACGAGATGCCTAAGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_04 | CAAGCAGAAGACGGCATACGAGATTGGTCAGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_05 | CAAGCAGAAGACGGCATACGAGATCACTGTGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_06 | CAAGCAGAAGACGGCATACGAGATATTGGCGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_07 | CAAGCAGAAGACGGCATACGAGATGATCTGGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_08 | CAAGCAGAAGACGGCATACGAGATTCAAGTGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_09 | CAAGCAGAAGACGGCATACGAGATCTGATCGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_10 | CAAGCAGAAGACGGCATACGAGATAAGCTAGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_11 | CAAGCAGAAGACGGCATACGAGATGTAGCCGTGACTGGAGTTCAGACGTGTGC |
-|ILLPCR2\_12 | CAAGCAGAAGACGGCATACGAGATTACAAGGTGACTGGAGTTCAGACGTGTGC |
+|name           |sequence                                               |
+|---------------|-------------------------------------------------------|
+|PCR\_Fvd       | AATGATACGGCGACCACCGAGAT                               |
+|PCR\_Rev\_xx   | CAAGCAGAAGACGGCATACGAGATxxxxxxxxGACTGGAGTTCAGACGTGTGC |
+|PCR\_Rev\_post | CAAGCAGAAGACGGCATACGAGAT                              |
 
-Primer working solutions consist of a mix of ILLPCR1 (1 unique primer) and one of ILLPCR2\_(1-12) barcoded primers. As the procedure is based on a double-indexing approach, each series of P2 adaptor-barcoded librairies has to be enriched using a different indexing primer mix during the PCR step.
+Reverse primer PCR\_Rev\_xx has a Illumina-compatible index sequence (xxxxxxxx). As the procedure is based on a double-indexing approach, each series of P1 adaptor-barcoded librairies has to be enriched using a different reverse indexing primer during the pre-capture PCR step.
 
-Each primer mix consists of universal forward and indexing reverse primer, each at 5 μM. To prepare it, mix 50 μl of the 100 μM stock ILLPCR1 and ILLPCR2\_(1-12) oligos with 900 μl of water to obtain 1000 μl of a working solution.
+For the post-capture PCR use combination of PCR\_Fvd and PCR\_Rev\_post primers.
+
+From 100 μM stock, prepare aliquots of each primer at 5 μM.
 			
 Primer choice:		
 You first have to choose how many P1 adaptors and indexes you will combine for the double indexing. For instance, when working with 32 samples, use 16 P1 adaptors and 2 different indexing primers. Keep in mind that all samples in one hybridization-capture pool should have the same index, but different barcodes (this way they can be amplified using the same indexing primer during the final PCR -library enrichement- but recognized thanks to the unique barcode). In the above example with 32 samples, 2 captures would have to be performed.		
@@ -126,12 +120,12 @@ Second, as recommended in Illumina sequencing procedure, P1 adaptors and indexes
 
 #### Blocking oligonucleotides
 
-|name       |sequence                                                          |
-|-----------|------------------------------------------------------------------|
-| BO1.P5.F  | AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT       |
-| BO2.P5.R  | AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT       |
-| BO3.P7.F  | CAAGCAGAAGACGGCATACGAGATIIIIIIGTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT |
-| BO4.P7.R  | AGATCGGAAGAGCACACGTCTGAACTCCAGTCACIIIIIIATCTCGTATGCCGTCTTCTGCTTG |
+|name       |sequence                                                            |
+|-----------|--------------------------------------------------------------------|
+| BO1.P5.F  | AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT         |
+| BO2.P5.R  | AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT         |
+| BO3.P7.F  | AGATCGGAAGAGCACACGTCTGAACTCCAGTCACIIIIIIIIATCTCGTATGCCGTCTTCTGCTTG |
+| BO4.P7.R  | AGATCGGAAGAGCACACGTCTGAACTCCAGTCACIIIIIIIIATCTCGTATGCCGTCTTCTGCTTG |
 
 Keep these as 100 μM solutions.
 
@@ -320,10 +314,10 @@ Prepare master mix B4:
 | -------------------------------------- | ----------- |
 | water                                  | 3.95        |
 | NEBuffer 4 (10x)                       | 0.5         |
-| BSA (10 mg/μl)                         | 0.35        |
+| BSA (10 mg/ml)                         | 0.35        |
 | T4 DNA polymerase (3 U/μl)             | 0.2         |
 
-Add 5 μl of the master mix B4 to 30 μl of the DNA (total volume = 35 μl). Keep on ice when assembling the reaction.
+Add 5 μl of the master mix B4 to 30 μl of the DNA (total volume = 35 μl). Keep on ice when assembling the reaction and after the reaction, higher temperatures will result in excess blunting!
 
 Incubate for 15 min at 12°C.
 
@@ -345,46 +339,30 @@ Add 1 μl of the barcoded adapter to 10 μl of the DNA. Add 9 μl of the B5 mix 
 
 Incubate at 16°C overnight.
 
-Perform AMPure cleanup with the beads:sample ratio 1:1 according to the manufacturer's instructions. Resuspend in 10 μl of 10 mM Tris or water.
+Perform AMPure cleanup with the beads:sample ratio 2:1 according to the manufacturer's instructions. Resuspend in 10 μl of 10 mM Tris or water.
 
-### 3.6 Adapter fill-in
-
-Prepare master mix B6:
-
-| reagent                                 | volume [μl] |
-| --------------------------------------- | ----------- |
-| water                                   | 7.05        |
-| ThermoPol reaction buffer (10x)         | 2.0         |
-| dNTP mix (25 μM each)                   | 0.2         |
-| BST polymerase, large fragment (8 U/μl) | 0.75        |
-
-Add 10 μl of the master mix B6 to 10 μl of the DNA (total volume = 10 μl).
-
-Incubate for 20 min at 37°C.
-
-Perform AMPure cleanup with the beads:sample ratio 2:1 according to the manufacturer's instructions. Resuspend in 20 μl of 10 mM Tris or water (or more, depending on the number of PCR replicates in the next step).
-
-### 3.7 PCR amplification
+### 3.6 Pre-capture library amplification
 
 Prepare indexed primer solutions (see chapter 1.3).
 
-Perform each PCR reaction in at least two replicates to account for the stochasticity of fragment amplification.
+Perform each PCR reaction in at least two replicates to account for the stochasticity of fragment amplification. Remember to amplify each group of barcoded samples using a different PCR\_Rev\_xx primer (see chapter 1.3).
 
-Prepare master mix B7:
+Prepare master mix B6:
 
-| reagent                                 | volume [μl] |
-| --------------------------------------- | ----------- |
-| water                                   | 7.05        |
-| Q5 polymerase buffer (5x)               | 5.0         |
-| dNTP mix (25 mM each)                   | 0.2         |
-| Indexing primer mix (5 μM each)         | 2.5         |
-| Q5 hot-start DNA polymerase (2 U/μl)    | 0.25        |
+| reagent                              | volume [μl] |
+| ------------------------------------ | ----------- |
+| water                                | 14.46       |
+| Q5 polymerase buffer (5x)            | 6.0         |
+| dNTP mix (25 mM each)                | 0.24        |
+| PCR\_Fvd  (5 μM)                     | 3.0         |
+| PCR\_Rev\_xx primer  (5 μM)          | 3.0         |
+| Q5 hot-start DNA polymerase (2 U/μl) | 0.3         |
 
-Add 15 μl of the master mix B7 to 10 μl of the template (total volume = 25 μl).
+Add 27 μl of the master mix B7 to 3 μl of the template (total volume = 30 μl).
 
-PCR program: denaturation 30 s at 98°C; 25 cycles of 10 s denaturation at 98°C, 20 s annealing at 60°C and 25 s elongation at 72°C; 180 s elongation at 72°C; hold at 4°C.
+PCR program: denaturation 30 s at 98°C; 15 cycles of 10 s denaturation at 98°C,  30 s combined annealing and elongation at 72°C; 5 min elongation at 72°C; hold at 4°C.
 
-Optional: verify individual sample profiles using gel electorphoresis.
+Optional: verify individual sample profiles using gel electorphoresis. You should also verify the optimal number of PCR cycles empirically.
 
 Pool the samples amplified using the same indexed primer together. If the variation in amplification success is large, estimate concentrations and pool the samples in equimolar ratios. This can be done using some gel documentation systems or Fragment Analyzer/Tapestation/Bioanalyzer. Alternatively, concentrations can be measured using Qubit/Picogreen but the samples have to be purified using AMPure beads before quantification (in order to remove primer-dimers).
 
@@ -466,20 +444,22 @@ This supernatant contains the hybridization-enriched products!
 
 NB: You can keep supernatant after washes 1-5 in case of DNA loss. 
 
-### 4.4 Library re-amplification
+### 4.4 Post-capture library amplification
 
-Prepare re-amplification master mix. The volumes are per captured library:
+Prepare re-amplification master mix. The volumes are per capture-enriched library:
 
 | reagent                                 | volume [μl] |
 | --------------------------------------- | ----------- |
-| water                                   | 19.1        |
+| water                                   | 14.1        |
 | Q5 polymerase buffer (5x)               | 10.0        |
 | dNTP mix (25 mM each)                   | 0.4         |
+| PCR\_Fvd  (5 μM)                        | 5.0         |
+| PCR\_Rev\_post primer  (5 μM)           | 5.0         |
 | Q5 hot-start DNA polymerase (2 U/μl)    | 0.5         |
 
-Mix 30 μl of the master mix with 5 μl of indexing primer mix (use the same index as used in the indexing PCR of historical library preparation, see chapter 3.7) and 15 μl of the captured libraries.
+Mix 35 μl of the master mix with 15 μl of the capture-enriched library.
 
-PCR program: denaturate 30 s at 98°C; 15 cycles of 10 s denaturation at 98°C, 20 s annealing at 60°C and 25 s elongation at 72°C; 180 s elongation at 72°C; hold at 4°C.
+PCR program: denaturation 30 s at 98°C; 15 cycles of 10 s denaturation at 98°C,  30 s combined annealing and elongation at 72°C; 5 min elongation at 72°C; hold at 4°C.
 
 Purify with AMPure using beads:sample ratio 1:1, elute in 30 μl of 10 mM Tris or water.
 
