@@ -167,11 +167,11 @@ Prepare master mix A2:
 | reagent                                | volume [μl] |
 | -------------------------------------- | ----------- |
 | water                                  | 5.0         |
-| T4 ligase buffer                       | 1.0         |
+| T4 ligase buffer                       | 2.0         |
 | T4 DNA ligase (400 U/μl)               | 1.0         |
-| RAD-P2 adaptor (10 μM)                 | 2.0         |
+| RAD-P2 adaptor (10 μM)                 | 1.0         |
 
-Mix 20 μl of digested DNA with 1 μl of P1-RAD barcoded adapter and 9 μl of master mix A2.
+Mix 10 μl of digested DNA with 1 μl of P1-RAD barcoded adapter and 9 μl of master mix A2  (total volume = 20 μl).
 
 Incubate 3 hours at 16°C, heat-inactivate the enzyme for 10 min at 65°C, hold at 4°C.
 
