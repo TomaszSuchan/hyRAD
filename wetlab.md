@@ -158,7 +158,7 @@ Prepare master mix A1:
 | MseI (10,000 U/ml)                     | 0.1         |
 | SbfI-HF (20,000 U/ml)                  | 0.1         |
 
-Mix 6 μl of DNA with 3 μl of master mix A1 (total volume = 10 μl).
+Mix 6 μl of DNA with 3 μl of master mix A1 (total volume = 9 μl).
 
 Incubate 3 hours at 37°C, hold at 4°C.
 
@@ -358,7 +358,7 @@ Prepare master mix B6:
 | dNTP mix (25 μM each)                   | 0.2         |
 | BST polymerase, large fragment (8 U/μl) | 0.75        |
 
-Add 10 μl of the master mix B6 to 10 μl of the DNA (total volume = 10 μl).
+Add 10 μl of the master mix B6 to 10 μl of the DNA (total volume = 20 μl).
 
 Incubate for 20 min at 37°C.
 
@@ -390,7 +390,7 @@ Pool the samples amplified using the same indexed primer together. If the variat
 
 After pooling, perform AMPure cleanup in order to remove primer-dimers, with the beads:sample ratio 0.7:1 according to the manufacturer's instructions. Resuspend in 15 μl of 10 mM Tris or water (10 μl for the capture, the rest for library quantification and profile validation).
 
-Verify the probes profile and proper primer-dimer removal using gel electrophoresis, or Fragent Analyzer/Tapestation. Quantify using Qbit on based on the Fragent Analyzer/Tapestation profile.
+Verify the libraries profiles and proper primer-dimer removal using gel electrophoresis, or Fragent Analyzer/Tapestation. Quantify using Qbit on based on the Fragent Analyzer/Tapestation profile.
 
 ## 4 Hybridization capture and library re-amplification
 
