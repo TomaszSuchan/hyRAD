@@ -147,7 +147,7 @@ Peterson BK, Weber JN, Kay EH, Fisher HS, Hoekstra HE (2012) Double Digest RADse
 
 ### 2.1 Restriction digestion
 
-Choose three fresh samples coming from different populations populations (if possible spanning the entire range of interest). The DNA samples should be diluted to equimolar ratios, and should ideally be at a concentration of 20-50 ng/μl.
+Choose three fresh samples coming from different populations populations (if possible spanning the entire range of interest). The DNA samples should be diluted to the same concentrations, ideally at 20-50 ng/μl. You keep the samples separated until the barcoded adapters are ligated and pool them before the size selection.
 
 Prepare master mix A1:
 
