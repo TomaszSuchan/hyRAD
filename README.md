@@ -4,7 +4,7 @@ The following is a supplementary material - wetlab protocol accompanying the pap
 
 Suchan T, Pitteloud C, Gerasimova N, Kostikova A, Schmid S, Arrigo N, Pajkovic M, Ronikier M & Alvarez N (2016) Hybridization capture using RAD probes (hyRAD), a new tool for performing genomic analyses on museum collection specimens. PLoS ONE, 11(3): e0151651.
 
-Previos version available on bioRxiv:
+Previous version available on bioRxiv:
 
 Suchan T, Pitteloud C, Gerasimova N, Kostikova A, Arrigo N, Pajkovic M, Ronikier M & Alvarez N (2015) Hybridization capture using RAD probes (hyRAD), a new tool for performing genomic analyses on museum collection specimens. bioRxiv, 025551.
 
