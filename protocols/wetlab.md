@@ -24,7 +24,7 @@ NB: The reagents listed below are the ones we tested. You are welcome to try oth
 
 | reagent                                | producer         | serial #      | remarks                      |
 |----------------------------------------|------------------|---------------|------------------------------|
-|BST polymerase, large fragment (8 U/μL) |NEB               |M0275S, M0275L |supplied with buffer          |
+|BST polymerase, large fragment (8 U/μL) |NEB               |M0275S, M0275L |supplied with buffer          | 
 |Klenow fragment (3'->5' exo-) (5 U/μL)  |NEB               |M0212S, M0212L |supplied with buffer          |
 |Q5 hot-start DNA polymerase (2 U/μL)    |NEB               |M0493S, M0493L |supplied with buffer          |
 |T4 DNA ligase (400 U/μL)                |NEB               |M0202S, M0202L |supplied with buffer          |
